@@ -4,7 +4,6 @@ mirage-random-test is a stub implementation of [`Mirage_random.C`][1] for
 testing purposes.
 
 [1]: https://mirage.github.io/mirage-random/Mirage_random.C.html
-[2]: https://github.com/mirage/mirage-entropy
 
 ### Installation
 
