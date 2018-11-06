@@ -26,4 +26,4 @@ let generate ?g:_g n =
   b
 
 let initialize () =
-  Lwt.return (Random.self_init ())
+  Random.self_init ()

@@ -16,4 +16,4 @@
 
 include Mirage_random.C
 
-val initialize : unit -> unit Lwt.t
+val initialize : unit -> unit
