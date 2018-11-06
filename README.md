@@ -1,17 +1,16 @@
-## mirage-random-stdlib -- Random device implementation using the OCaml stdlib
+## mirage-random-test -- Stub random device implementation for testing
 
-mirage-random-stdlib implements [`Mirage_random.C`][1] using the `Random` from
-the OCaml standard library (a lagged-Fibonacci PRNG). The entropy is seeded
-by [mirage-entropy], depending on CPU features.
+mirage-random-test is a stub implementation of [`Mirage_random.C`][1] for
+testing purposes.
 
 [1]: https://mirage.github.io/mirage-random/Mirage_random.C.html
 [2]: https://github.com/mirage/mirage-entropy
 
 ### Installation
 
-`mirage-random-stdlib` can be installed with `opam`:
+`mirage-random-test` can be installed with `opam`:
 
-    opam install mirage-random-stdlib
+    opam install mirage-random-test
 
 If you don't use `opam` consult the [`opam`](opam) file for build
 instructions.

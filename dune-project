@@ -1,2 +1,2 @@
 (lang dune 1.3)
-(name mirage-random-stdlib)
+(name mirage-random-test)
