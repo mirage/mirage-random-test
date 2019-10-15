@@ -14,6 +14,6 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *)
 
-include Mirage_random.C
+include Mirage_random.S
 
 val initialize : unit -> unit
