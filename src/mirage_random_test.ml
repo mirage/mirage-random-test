@@ -14,8 +14,6 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *)
 
-type buffer = Cstruct.t
-
 type g = unit
 
 let generate ?g:_g n =
